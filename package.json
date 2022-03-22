@@ -1,0 +1,21 @@
+{
+  "name": "defi-test",
+  "version": "1.0.0",
+  "description": "defi -test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.6.1",
+    "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1",
+    "dotenv": "^16.0.0"
+  }
+}
