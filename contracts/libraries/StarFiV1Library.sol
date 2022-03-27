@@ -4,7 +4,7 @@ import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 
 import "./SafeMath2.sol";
 
-library UniswapV2Library {
+library StarFiV1Library {
     using SafeMath2 for uint;
 
     // returns sorted token addresses, used to handle return values from pairs sorted in this order
