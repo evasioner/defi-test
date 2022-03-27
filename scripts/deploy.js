@@ -1,5 +1,4 @@
 const hre = require("hardhat");
-const verify = require("@nomiclabs/hardhat-etherscan");
 
 async function main() {
     const StarFiV1ERC20 = await ethers.getContractFactory("StarFiV1ERC20");
